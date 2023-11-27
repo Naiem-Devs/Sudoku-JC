@@ -1,0 +1,542 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Site Title Here</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="shortcut icon" type="image/x-icon" href="#">
+        <!-- Place favicon.ico in the root directory -->
+        
+		<!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="assets/css/font.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+    <body>
+
+       
+    <!-- header-area START -->
+    <div class="header-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-2 col-6">
+                    <div class="logo-area">
+                        <div class="bar">
+                            <a class="bar-icon siteBar-btn" href="#">
+                                <span></span>
+                            </a>
+                        </div>
+                        <h3><a href="index.html">TodaySudoku.com</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-10 d-none d-lg-block text-right">
+                    <div class="menu-area">
+                        <nav>
+                            <ul id="nav">
+                                <li><a href="#" class="active">Home</a></li>
+                                <li><a href="#">Rules</a></li> 
+                                <li><a href="#">Tips</a></li> 
+                                <li><a href="#">Printable Sudoku</a></li> 
+                                <li><a href="#">Widgets</a></li> 
+                                <li><a href="#">Faq’s</a></li> 
+                            </ul>
+                        </nav>
+                        <div class="select_lng">
+                            <select>
+                                <option data-display="eng">eng</option>
+                                <option value="1">bng</option>
+                                <option value="2">ind</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 d-block d-lg-none text-center">
+                    <div class="mobile_nav">
+                        <div class="select_lng">
+                            <select>
+                                <option data-display="eng">eng</option>
+                                <option value="1">bng</option>
+                                <option value="2">ind</option>
+                            </select>
+                        </div>
+                        <a href="#" class="set_op">
+                            <i class="icon">
+                                <img src="assets/img/setting.svg" alt="">
+                            </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- mobile-menu START -->
+        <div class="mobile-menu">
+            <!-- <div class="select_lng">
+                <select>
+                    <option data-display="eng">eng</option>
+                    <option value="1">bng</option>
+                    <option value="2">ind</option>
+                </select>
+            </div> -->
+            <a href="#" class="bars siteBar-btn"><svg class="bi bi-x" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z" clip-rule="evenodd"/>
+            </svg></a> 
+            <nav> 
+                <ul id="nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Rules</a></li> 
+                    <li><a href="#">Tips</a></li> 
+                    <li><a href="#">Printable Sudoku</a></li> 
+                    <li><a href="#">Widgets</a></li> 
+                    <li><a href="#">Faq’s</a></li> 
+                </ul>
+            </nav> 
+        </div> 
+    <!-- header-area END -->
+
+
+    <main>
+        
+
+        <!--------- Section START ---------->
+        <section class="sudoku-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="sudoku_top">
+                            <ul>
+                                <li>
+                                    <div class="inc_dic">
+                                        <button type="button" class="minus"><img src="assets/img/minus.svg" alt=""></button>
+                                        <span>Easy</span>
+                                        <button type="button" class="plus"><img src="assets/img/plus.svg" alt=""></button>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="Pause">
+                                        <a href="#"><img src="assets/img/Pause.svg" alt=""></a> <span>05:00</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>Mistakes : 0/3</span>
+                                </li>
+                            </ul>
+                            <a href="#" class="set_op">
+                                <i class="icon">
+                                    <img src="assets/img/setting.svg" alt="">
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="sudoku_wrp">
+                            <div class="sudoku_num">
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td>5</td>
+                                            <td>3</td>
+                                            <td></td>
+                                            <td class="bg"></td>
+                                            <td class="bg">7</td>
+                                            <td class="bg"></td>
+                                            <td class="num9"><span>1 2 3 4 5 6 7 8 9</span></td>
+                                            <td class="num3">
+                                                <span>1 
+                                                    <div class="hide">2</div> 
+                                                    <div class="hide">3</div> 
+                                                    <div class="hide">4</div> 
+                                                    5 
+                                                    <div class="hide">6</div> 
+                                                    7 
+                                                    <div class="hide">8</div> 
+                                                    <div class="hide">9</div>
+                                                </span>
+                                            </td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="bg">1</td>
+                                            <td class="bg">9</td>
+                                            <td class="bg">5</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td>8</td>
+                                            <td class="bg"></td>
+                                            <td class="bg"></td>
+                                            <td class="bg"></td>
+                                            <td></td>
+                                            <td>6</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg">8</td>
+                                            <td class="bg"></td>
+                                            <td class="bg"></td>
+                                            <td></td>
+                                            <td>6</td>
+                                            <td></td>
+                                            <td class="bg"></td>
+                                            <td class="bg"></td>
+                                            <td class="bg">3</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg">4</td>
+                                            <td class="bg"></td>
+                                            <td class="bg"></td>
+                                            <td>8</td>
+                                            <td></td>
+                                            <td>3</td>
+                                            <td class="bg"></td>
+                                            <td class="bg"></td>
+                                            <td class="bg">1</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg">7</td>
+                                            <td class="bg"></td>
+                                            <td class="bg"></td>
+                                            <td></td>
+                                            <td>2</td>
+                                            <td></td>
+                                            <td class="bg"></td>
+                                            <td class="bg"></td>
+                                            <td class="bg">6</td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td>6</td>
+                                            <td></td>
+                                            <td class="bg"></td>
+                                            <td class="bg"></td>
+                                            <td class="bg"></td>
+                                            <td>2</td>
+                                            <td>8</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="bg">4</td>
+                                            <td class="bg">1</td>
+                                            <td class="bg">9</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="bg"></td>
+                                            <td class="bg">8</td>
+                                            <td class="bg"></td>
+                                            <td></td>
+                                            <td>7</td>
+                                            <td>9</td>
+                                        </tr>
+                                    </tbody>
+                                  </table>
+                            </div>
+                            <div class="sudoku_opt">
+                                <ul class="sudoku_opt_icon">
+                                    <li>
+                                        <a href="#">
+                                            <i class="icon">
+                                                <img src="assets/img/plus-2.svg" alt="">
+                                            </i>
+                                            <span>New Game</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="icon">
+                                                <img src="assets/img/undo.svg" alt="">
+                                            </i>
+                                            <span>Undo</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="icon">
+                                                <img src="assets/img/erase.svg" alt="">
+                                            </i>
+                                            <span>Erase</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="icon">
+                                                <img src="assets/img/Notes.svg" alt="">
+                                            </i>
+                                            <span>
+                                                Note
+                                                <label class="switch">
+                                                    <input type="checkbox">
+                                                    <span class="slider round"></span>
+                                                </label>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="icon">
+                                                <img src="assets/img/autonote.svg" alt="">
+                                            </i>
+                                            <span>
+                                                Auto Note
+                                                <label class="switch">
+                                                    <input type="checkbox">
+                                                    <span class="slider round"></span>
+                                                </label>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="Hint_btn">
+                                            <i class="icon">
+                                                <div class="num">
+                                                    3
+                                                </div>
+                                                <img src="assets/img/hint.svg" alt="">
+                                            </i>
+                                            <span>Hint</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="dial-pad">
+                                    <li>
+                                        <button type="button">1</button>
+                                    </li>
+                                    <li>
+                                        <button type="button">2</button>
+                                    </li>
+                                    <li>
+                                        <button type="button">3</button>
+                                    </li>
+                                    <li>
+                                        <button type="button">4</button>
+                                    </li>
+                                    <li>
+                                        <button type="button">5</button>
+                                    </li>
+                                    <li>
+                                        <button type="button">6</button>
+                                    </li>
+                                    <li>
+                                        <button type="button">7</button>
+                                    </li>
+                                    <li>
+                                        <button type="button">8</button>
+                                    </li>
+                                    <li>
+                                        <button type="button">9</button>
+                                    </li>
+                                </ul>
+                                <div class="cell_popUp" id="owl-demo">
+                                    <h4>last remaining cell</h4>
+                                    <div class="cell_slider owl-carousel">
+                                        <p>
+                                            Pay attention to <span class="green">these cells</span>  and the highlighted areas
+                                        </p>
+                                        <p>In <span class="green">this block</span>, there is only one cell remaining that can contain 6</p>
+                                        <p>
+                                        
+                                            Since it is the only possible option, this cell must be 6</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="soli_img">
+                            <a href="#">
+                                <img src="assets/img/soli-img.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="banner_wrp">
+                            <h3>The leading digital platform SUDOKU</h3>
+                            <img src="assets/img/sud-img.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="Sudoku-Tips">
+                            <div class="">
+                                <h3>How to play sudoku</h3>
+                                <p>Easy Sudoku is characterized by the fact that cells contain more numbers than medium or hard ones. It makes this game suitable for beginners and those who have never played Sudoku before.</p>
+                                <p>Sudoku is one of the most popular games to develop your intelligence. Supposedly, it was invented in 1970 by Dell's puzzler in New York, who published it in his journal “Mathematical Puzzles and Logical Problems”. The further development to web Sudoku was held in Japan, where the name of the game was invented. In 2004, Sudoku was first published in the “Times” as an online game.</p>
+                                <p>Easy Sudoku puzzles not only bring pleasure, but also train concentration and attention. You will notice how quickly your ability to concentrate improves, if you play daily. It is especially useful to play easy web Sudoku on a regular basis for older people in order to maintain their mental abilities for many years.</p>
+                            </div>
+                            <div class="space">
+                                <h3>How to play beginner Sudoku puzzles?</h3>
+                                <p>The goal of Sudoku is to fill the cells with numbers from 1 to 9. The numbers are placed in 9 squares, 3x3 each, thus, in each row, in each column and in each small square there are 9 cells. The same digit can be used only once in each separate column, each line and in each small square. The level of difficulty depends on how many digits are already indicated in the cells. If you open plenty of numbers - then you have very easy Sudoku.</p>
+                            </div>
+                            <div class="">
+                                <h3>Sudoku Tips</h3>
+                                <ul>
+                                    <li>
+                                        <div class="left">
+                                            <h5>Tips</h5>
+                                            <h1>1</h1>
+                                        </div>
+                                        <div class="text">
+                                            <h4>Naked singles</h4>
+                                            <p>Write down every possibility for each cell. If when you cross the rows and columns you find a blank space with only one possibility, you have found a naked single and the right answer for that cell.</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="left">
+                                            <h5>Tips</h5>
+                                            <h1>2</h1>
+                                        </div>
+                                        <div class="text">
+                                            <h4>Hidden singles</h4>
+                                            <p>Hidden singles are in fact naked singles that occur once you add a new digit to a row or a column. Keep your pencil notes updated and check them often through the game to find these.</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="left">
+                                            <h5>Tips</h5>
+                                            <h1>3</h1>
+                                        </div>
+                                        <div class="text">
+                                            <h4>Naked pairs</h4>
+                                            <p>These occur when you have two identical pairs of candidates in a single row or column. Even if you do not know their right placement, you can identify without a doubt their position in the grid. Thus, you can eliminate those digits from any other possibilities in that row or column.</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="left">
+                                            <h5>Tips</h5>
+                                            <h1>4</h1>
+                                        </div>
+                                        <div class="text">
+                                            <h4>Hidden Pairs</h4>
+                                            <p>Hidden pairs are cells with two identical candidates positioned in opposite corners of one square and nowhere else in the region. This means that you can be certain that those two blank spaces can only be filled with one or the other. </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="left">
+                                            <h5>Tips</h5>
+                                            <h1>5</h1>
+                                        </div>
+                                        <div class="text">
+                                            <h4>Don’t try to guess</h4>
+                                            <p>Sudoku is a simple game of logic. Guessing should be your very last resort as it can easily throw off the puzzle and make it unsolvable.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------- Section End ---------->
+
+
+
+    </main>
+
+    
+    <!--------- Section START ---------->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-5">
+                    <div class="footer_left">
+                        <h3>TodaySudoku.com</h3>
+                        <div class="social_link ">
+                            <a href="#"><img src="assets/img/Facebook.svg" alt=""></a>
+                            <a href="#"><img src="assets/img/Twitter.svg" alt=""></a>
+                            <div class="select_lng">
+                                <select>
+                                    <option data-display="eng">eng</option>
+                                    <option value="1">bng</option>
+                                    <option value="2">ind</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6">
+                    <div class="footer_nav">
+                        <ul>
+                            <li><a href="#">Rules</a></li>
+                            <li><a href="#">Widgets</a></li>
+                            <li><a href="#">Tips</a></li>
+                            <li><a href="#">Faq’s</a></li>
+                            <li><a href="#">Printable Sudoku</a></li>
+                            <li><a href="#">Get In Touch</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_btm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="CRights">
+                            <p>©2023 TodaySudoku. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="terms_nav">
+                            <ul>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Cookie Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--------- Section End ---------->
+
+
+		<!-- JS here --> 
+        <script src="assets/js/jquery-3.4.1.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script>
+            $('select').niceSelect();
+
+// window.addEventListener('click', (e) => {
+    
+//     if(e.target.classList.contains('done')){
+//         let dot = document.querySelector('.owl-dot')
+//         dot.click()
+//         console.log(dot);
+//         $('.sudoku_wrp').removeClass('active'); 
+        
+//     }
+
+// })
+
+
+        </script>
+    </body>
+</html>
+
+

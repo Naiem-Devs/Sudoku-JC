@@ -1,0 +1,323 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .soli_img {
+        position: unset;
+        margin: 40px auto 0;
+    }
+
+    .sudoku_num tr:first-child td:first-child {
+        width: 51px;
+        margin-left: -1px;
+    }
+
+    .sudoku_num tr:last-child td:first-child {
+        width: 51px;
+        margin-left: -1px;
+    }
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .soli_img {
+        position: unset;
+        margin: 40px auto 0;
+    }
+
+    .sudoku_num tr:first-child td:first-child {
+        /* width: 50px; */
+    }
+
+    .sudoku_num tr:last-child td:first-child {
+        width: 51px;
+    }
+}
+
+
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo-area {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .logo-area .bar {
+        display: block;
+    }
+
+    .header-area {
+        padding: 20px 10px;
+    }
+
+    .soli_img {
+        position: unset;
+        margin: 40px auto 0;
+    }
+
+    .sudoku_num tr:first-child td:first-child {
+        width: 51px;
+        top: auto;
+        margin-top: -1px;
+    }
+
+    .sudoku_num tr:last-child td:first-child {
+        width: 51px;
+    }
+
+    .sudoku_wrp {
+        flex-direction: column;
+        max-width: 488px;
+        margin-inline: auto;
+    }
+
+    .sudoku_top {
+        max-width: 469px;
+        border: none;
+    }
+
+    .sudoku_num tr:first-child td:last-child {
+
+        top: auto;
+
+        margin-top: -1px;
+
+    }
+
+    a.set_op {
+        display: none;
+    }
+
+    .mobile_nav a.set_op {
+        display: flex;
+    }
+
+    .footer_left .select_lng {
+        right: 15px;
+    }
+
+
+
+}
+
+
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .logo-area {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .logo-area .bar {
+        display: block;
+    }
+
+    .header-area {
+        padding: 15px 10px;
+    }
+
+    .soli_img {
+        position: unset;
+        margin: 40px auto 0;
+        max-width: 100%;
+    }
+
+    .sudoku_num tr:first-child td:first-child {
+        margin-left: 0px;
+        top: auto;
+        margin-top: -1px;
+        height: auto !important;
+    }
+
+    .sudoku_num tr:last-child td:first-child,
+    .sudoku_num tr:last-child td:last-child {
+        width: 36px !important;
+        margin-left: 0px;
+        height: 41px !important;
+    }
+
+    .sudoku_wrp {
+        flex-direction: column;
+        /* max-width: 350px; */
+        margin-inline: auto;
+        max-width: 490px;
+        padding: 0;
+        border: none;
+        padding-top: 20px;
+    }
+
+.Wactive {
+    background: red;
+}
+
+    .sudoku_top {
+        max-width: 350px;
+        border: none;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .sudoku_num tr:first-child td:last-child {
+
+top: auto;
+
+margin-top: -1px;
+
+height: 42px !important;
+
+width: 36px !important;
+
+}
+
+    a.set_op {
+        display: none;
+    }
+
+    .mobile_nav a.set_op {
+        display: flex;
+    }
+
+.mobile_nav a.set_op i {
+    width: 40px;
+    height: 40px;
+    margin-right: -10px;
+}
+
+.mobile_nav a.set_op i img {
+    scale: .8;
+}
+
+.logo-area h3 {
+    font-size: 20px;
+}
+
+    .footer_left .select_lng {
+        right: 15px;
+        position: unset;
+        display: flex;
+    }
+
+    .sudoku_num td {
+        font-size: 32px;
+        width: 40px;
+        height: 40px;
+    }
+
+.num9 span, .num3 span {
+    font-size: 13px;
+    max-width: 30px;
+    word-spacing: 2px;
+    line-height: 1;
+}
+
+    .sudoku_num {
+        /* width: 320px; */
+        width: max-content;
+        margin: auto;
+    }
+
+    .banner_wrp {
+        flex-direction: column;
+        padding: 0;
+        margin: 30px 0 40px;
+    }
+
+    .sudoku_top ul {
+        justify-content: space-between;
+        gap: 15px;
+    }
+
+
+    .mobile_nav .select_lng .nice-select {
+        /* display: none; */
+        width: 90px;
+        height: 38px;
+    }
+
+.mobile-menu .select_lng {
+    display: flex;
+    position: absolute;
+    top: 24px;
+}
+
+    .sudoku-area {
+        margin: 10px 0 40px;
+    }
+
+    ul.sudoku_opt_icon li {
+        flex: 0 0 18%;
+    }
+
+ul.sudoku_opt_icon li a {
+    scale: .8;
+    display: block;
+}
+
+ul.sudoku_opt_icon li a>span {
+    display: none;
+}
+
+    .sudoku_opt_icon {
+        gap: 0;
+        flex-wrap: nowrap;
+    }
+
+.cell_popUp {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    top: auto;
+    bottom: 10%;
+}
+
+    ul.dial-pad li button {
+        height: auto;
+        background: no-repeat;
+        font-size: 36px;
+        width: auto;
+    }
+
+    .dial-pad {
+        justify-content: space-between;
+        max-width: 100%;
+    }
+
+.dial-pad li {
+}
+
+    .banner_wrp h3 {
+        max-width: 290px;
+        width: 100%;
+        margin: 30px auto 20px;
+        font-size: 28px;
+    }
+
+    .Sudoku-Tips .space {
+        margin-bottom: 40px;
+    }
+
+    .social_link {
+        margin-bottom: 30px;
+    }
+
+    .terms_nav ul {
+        justify-content: center;
+    }
+
+    .footer_btm {
+        text-align: center;
+    }
+
+    .footer_btm .row {
+        flex-direction: column-reverse;
+        gap: 6px;
+    }
+
+}
+
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
